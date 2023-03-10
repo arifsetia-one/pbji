@@ -8,15 +8,104 @@
       </h1>
     </div>
   </div>
+  <!-- Card Top -->
+  <div class="container mx-auto flex gap-4">
+    <div class="container mx-auto flex mt-80">
+      <a href="#"
+        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="https://kominfo.jatimprov.go.id/uploads/images/IMG-20220829-WA0015.jpg" alt="event pbji">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-900 dark:text-white">Noteworthy technology
+            acquisitions 2021</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+            acquisitions of 2021 so far, in reverse chronological order.</p>
+        </div>
+      </a>
+    </div>
+    <div class="container mx-auto flex mt-80">
+      <a href="#"
+        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="https://kominfo.jatimprov.go.id/uploads/images/IMG-20220829-WA0015.jpg" alt="event pbji">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
+            acquisitions 2021</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+            acquisitions of 2021 so far, in reverse chronological order.</p>
+        </div>
+      </a>
+    </div>
+    <div class="container mx-auto flex mt-80">
+      <a href="#"
+        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="https://kominfo.jatimprov.go.id/uploads/images/IMG-20220829-WA0015.jpg" alt="event pbji">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
+            acquisitions 2021</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+            acquisitions of 2021 so far, in reverse chronological order.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Card -->
+  <section class="container mx-auto mt-10 mb-8">
+    <div class="text-start flex flex-col">
+      <h1 class="font-bold md:text-3xl text-2xl text-[#3f3f3f]">Rekomendasi Event</h1>
+    </div>
+    <div class="grid grid-cols-1 gap-2 justify-center pb-[10%] pt-0 md:grid-cols-3 md:gap-6">
+      <div
+        class="max-w-full rounded overflow-hidden shadow-lg bg-white mt-4 justify-end hover:scale-105 transition-all duration-300">
+        <img class="w-full" src="https://www.rmoljatim.id/uploads/images/2022/08/image_750x_630aeff087039.jpg"
+          alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <h2 class="font-bold text-xl mb-2 text-gray-600 text-start">Kejuaraaan Nasional</h2>
+          <p class="text-gray-700 font-medium mb-2 text-start">Yogyakarta, 3 Mei 2022</p>
+          <button type="button"
+            class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Lihat
+            Selengkapnya</button>
+        </div>
+      </div>
+      <div
+        class="max-w-full rounded overflow-hidden shadow-lg bg-white mt-4 justify-end hover:scale-105 transition-all duration-300">
+        <img class="w-full"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEMgxa_3L6YVCO8dqBSEdWeTX1_4UYcLtUoG5MU7AglAQL8dww8CAsXOVawjeCc7gUYsU&usqp=CAU"
+          alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <h2 class="font-bold text-xl mb-2 text-gray-600 text-start">Kejuaraaan Nasional</h2>
+          <p class="text-gray-700 font-medium mb-2 text-start">Yogyakarta, 3 Mei 2022</p>
+          <button type="button"
+            class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Lihat
+            Selengkapnya</button>
+        </div>
+      </div>
+      <div
+        class="max-w-full rounded overflow-hidden shadow-lg bg-white mt-4 justify-end hover:scale-105 transition-all duration-300">
+        <img class="w-full" src="https://www.rmoljatim.id/uploads/images/2022/08/image_750x_630aeff087039.jpg"
+          alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <h2 class="font-bold text-xl mb-2 text-gray-600 text-start">Kejuaraaan Nasional</h2>
+          <p class="text-gray-700 font-medium mb-2 text-start">Yogyakarta, 3 Mei 2022</p>
+          <button type="button"
+            class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Lihat
+            Selengkapnya</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Card -->
 
   <!-- Footer -->
   <div>
-    <footer
-      class="mt-96 bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+    <footer class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
       <div
         class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div class="mr-12 hidden lg:block">
-          <span>Get connected with us on social networks:</span>
+          <span>Follow juga media sosial kami :</span>
         </div>
         <div class="flex justify-center">
           <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
@@ -32,28 +121,9 @@
             </svg>
           </a>
           <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
-                fill-rule="evenodd" clip-rule="evenodd" />
-            </svg>
-          </a>
-          <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
               <path
                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-            </svg>
-          </a>
-          <a href="#!" class="mr-6 text-neutral-600 dark:text-neutral-200">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
-            </svg>
-          </a>
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
             </svg>
           </a>
         </div>
@@ -66,45 +136,41 @@
                 <path
                   d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
               </svg>
-              Tailwind ELEMENTS
+              PBJI DAERAH ISTIMEWA YOGYAKARTA
             </h6>
+          </div>
+          <div class="">
+            <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              Informasi Dojo
+            </h6>
+            <p class="mb-4">
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Dojo RSPAU</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Dojo Polres Kota</a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Dojo Polresta</a>
+            </p>
             <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet.
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Dojo SBI</a>
             </p>
           </div>
           <div class="">
             <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-              Products
+              Menu
             </h6>
             <p class="mb-4">
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Angular</a>
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Home</a>
             </p>
             <p class="mb-4">
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">React</a>
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Profil</a>
             </p>
             <p class="mb-4">
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Vue</a>
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Informasi PBJI</a>
             </p>
             <p>
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Laravel</a>
-            </p>
-          </div>
-          <div class="">
-            <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-              Useful links
-            </h6>
-            <p class="mb-4">
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Pricing</a>
-            </p>
-            <p class="mb-4">
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Settings</a>
-            </p>
-            <p class="mb-4">
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Help</a>
+              <a href="#!" class="text-neutral-600 dark:text-neutral-200">Berita</a>
             </p>
           </div>
           <div>

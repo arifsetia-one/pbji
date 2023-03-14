@@ -14,11 +14,12 @@
       <div class="items-center justify-center flex hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
         <ul
           class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent">
-          <RouterLink class="font-semibold hover:text-[#eb1728]" to="/">Home</RouterLink>
+          <li class="font-semibold hover:text-[#eb1728]" v-for="menu in menuNavbar" :key="menu.title" @click="onRouteClick(menu)">{{ menu.title }}</li>
+          <!-- <RouterLink class="font-semibold hover:text-[#eb1728]" to="/">Home</RouterLink>
           <RouterLink class="font-semibold hover:text-[#eb1728]" to="/profil">Profil</RouterLink>
           <RouterLink class="font-semibold hover:text-[#eb1728]" to="/Info">Informasi PBJI</RouterLink>
           <RouterLink class="font-semibold hover:text-[#eb1728]" to="/Berita">Berita</RouterLink>
-          <RouterLink class="font-semibold hover:text-[#eb1728]" to="/Event">Event</RouterLink>
+          <RouterLink class="font-semibold hover:text-[#eb1728]" to="/Event">Event</RouterLink> -->
         </ul>
       </div>
     </div>
@@ -26,6 +27,30 @@
   <!-- End of Navbar -->
   <router-view />
 </template>
+
+<script setup>
+import { useRouter } from "vue-router";
+
+
+const $router = useRouter()
+
+const menuNavbar = [
+  { title: 'Home', route: { name: 'home' } },
+  { title: 'Profile', route: { name: 'profile' } },
+  { title: 'Info', route: { name: 'info' } },
+  { title: 'Berita', route: { name: 'berita' } },
+  { title: 'Event', route: { name: 'event' } }
+]
+
+
+const onRouteClick = (menu) => {
+  if (menu.route) {
+    $router.push(menu.route)
+  } else if (menu.callback) {
+    menu.callback()
+  }
+}
+</script>
 
 <style>
 #app {

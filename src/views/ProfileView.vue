@@ -75,10 +75,15 @@
             </p>
         </div>
         <div class="">bb</div>
+        <div class="gambar"><img src="../assets/logo.png" alt=""></div>
     </div>
 </template>
 
 <style>
+.gambar img {
+    width: 100px;
+}
+
 #header {
     box-sizing: border-box;
     margin-top: 20px;

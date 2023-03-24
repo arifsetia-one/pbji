@@ -61,9 +61,9 @@
     <!-- Card Berita -->
     <section class="container mx-auto mt-10 mb-8">
         <div class="text-start flex flex-col">
-            <h1 class="font-bold md:text-3xl text-3xl text-[#3f3f3f]">Berita Olahraga</h1>
+            <h1 class="font-bold md:text-3xl text-2xl text-[#3f3f3f] ml-8">Berita Olahraga</h1>
         </div>
-        <div class="grid grid-cols-1 gap-2 justify-center pb-[10%] pt-0 md:grid-cols-3 md:gap-6">
+        <div class="grid grid-cols-1 gap-2 justify-center pb-[10%] pt-0 md:grid-cols-3 md:gap-10 mr-10 ml-10">
             <div
                 class="max-w-full rounded overflow-hidden shadow-lg bg-white mt-4 justify-end hover:scale-105 transition-all duration-300">
                 <img class="w-full" src="https://www.rmoljatim.id/uploads/images/2022/08/image_750x_630aeff087039.jpg"

@@ -100,7 +100,7 @@
   <!-- End of Card -->
 
   <!-- Footer -->
-  <div>
+  <!-- <div>
     <footer class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
       <div
         class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
@@ -217,5 +217,5 @@
         <span>Copyright @ 2023: PBJI-DIY</span>
       </div>
     </footer>
-  </div>
+  </div> -->
 </template>

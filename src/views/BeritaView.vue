@@ -1,4 +1,7 @@
 <template>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    </head>
     <!-- Carousel -->
     <div class="flex gap-4 mx-auto bg-slate-200 mt-10">
         <div id="controls-carousel" class="relative w-full" data-carousel="static">

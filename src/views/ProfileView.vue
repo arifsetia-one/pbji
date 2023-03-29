@@ -54,8 +54,6 @@
                 namun juga olahraga prestasi.
             </p>
         </div>
-        <div class="">bb</div>
-        <div class="gambar"><img src="../assets/logo.png" alt=""></div>
     </div>
 </template>
 

@@ -50,6 +50,7 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      'bg1': 'url(/src/assets/bg2.png)',
     },
     backgroundOpacity: ({ theme }) => theme('opacity'),
     backgroundPosition: {
@@ -104,6 +105,7 @@ module.exports = {
       2: '2px',
       4: '4px',
       8: '8px',
+      20: '20px'
     },
     boxShadow: {
       sm: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -353,6 +355,7 @@ module.exports = {
       bold: '700',
       extrabold: '800',
       black: '900',
+      xxbold: '1200'
     },
     gap: ({ theme }) => theme('spacing'),
     gradientColorStops: ({ theme }) => theme('colors'),

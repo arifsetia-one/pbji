@@ -3,18 +3,32 @@
         <h1>wkwkwwk</h1>
     </div> -->
 
-    <div class="grid grid-cols-1 mt-4">
-        <div class="bg-slate-300 border-r-8 border-r-red-700">
-            <p class="text-left text-4xl font-extrabold pl-4 pt-3">
+    <div class="grid grid-cols-1 mt-4 
+                xl:grid-cols-6
+                ">
+        <div class="bg-slate-300 border-r-8 border-r-red-700
+                    xl:col-span-3 border-none text-black mx-20 h-72 rounded-l-md
+                    ">
+            <p class="text-left text-4xl font-extrabold pl-4 pt-3 
+                    xl: my-6
+                    ">
                 Informasi PBJI <br>
                 Daerah Istimewa <br>
                 Yogyakarta
             </p>
-            <p class="text-left text-sm italic font-semibold pl-4 pt-7 pb-3">
+            <p class="text-left text-sm italic font-semibold pl-4 pt-7 pb-3
+                    xl:my-6
+                    ">
                 Dojo Tempat Latihan Para Atlet
             </p>
         </div>
-        <div class="bg-bg1 bg-cover h-40"></div>
+        <div class="bg-bg1 bg-cover h-40
+                    xl:col-span-2 -mx-20 h-72 rounded-r-md
+                    ">
+
+        </div>
+        <div class="xl: border-r-80 border-r-red-700">
+        </div>
     </div>
 
     <div class="grid grid-cols-1 mt-16">

@@ -1,5 +1,5 @@
 <template>
-    wkwkwk infoooooooooooooooooooooooooooooooooooooooooooooooo
+    <h1>Ingpoooo</h1>
 </template>
 
 <script setup>

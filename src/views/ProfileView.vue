@@ -19,7 +19,7 @@
 
     <div id="about" class="">
         <div class="judul1">
-            <h3>Tentang PBJI DIY</h3>
+            <h3>Tentang PBJI</h3>
         </div>
         <div class="fill">
             <p>
@@ -182,39 +182,6 @@
     text-align: start;
     color: white;
 }
-
-/* .kotak {
-    width: 122px;
-    height: 400px;
-    background-color: #636262;
-    border-radius: 0px 20px 20px 0px;
-}
-.judul {
-    margin: auto 0px;
-}
-.judul p {
-    text-align: start;
-    font-size: 40px;
-    font-weight: bold;
-}
-.judul h5 {
-    margin-top: 20px;
-    font-style: italic;
-    text-align: start;
-    font-weight: bold;
-}
-.foto {
-    background-color: aqua;
-} */
-/* .fotojjs {
-    margin-left: -100px;
-    background-image: url(../assets/fotojjs-resize.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    border-radius: 24px 0px 0px 24px;
-    background-position: 0px;
-} */
 </style>
 
 <script setup>

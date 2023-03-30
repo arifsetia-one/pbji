@@ -162,6 +162,7 @@
 
 .visimisi {
     background-color: #CE231C;
+    padding-bottom: 5%;
     width: 100%;
 }
 

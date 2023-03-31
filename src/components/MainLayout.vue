@@ -4,7 +4,7 @@
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a to="/" href="#" class="flex items-center">
                 <img src="https://pbjisurabaya.or.id/images/logo/pbji.png" class="h-0 mr-3 sm:h-9" alt="PBJI Logo" />
-                <span class="self-center text-2xl sm:text-3xl font-bold text-black whitespace-nowrap ">PBJI-DIY</span>
+                <span class="self-center text-2xl sm:text-3xl font-bold text-white whitespace-nowrap ">PBJI-DIY</span>
             </a>
             <div class="flex items-center md:order-2 text-white">
                 <button
@@ -16,7 +16,7 @@
             <div class="items-center justify-center flex hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent">
-                    <li class="font-semibold hover:text-[#eb1728]" v-for="menu in menuNavbar" :key="menu.title"
+                    <li class="font-semibold text-white hover:text-[#eb1728]" v-for="menu in menuNavbar" :key="menu.title"
                         @click="onRouteClick(menu)">{{ menu.title }}</li>
                 </ul>
             </div>

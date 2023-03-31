@@ -1,6 +1,10 @@
 <template>
   <!-- bg-[url('../assets/bg2.png')] -->
   <div class="home mb-96">
+    <!-- <img
+      src="https://images.unsplash.com/photo-1501901609772-df0848060b33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
+      class="w-full h-screen object-cover"> -->
+    <img src="../assets/bg2.png" class="w-full h-full absolute inset-0 object-cover opacity-90 -z-20">
     <div class=" container mt-28 mx-auto flex italic">
       <img class="w-24 h-24 mr-6" src="../assets/logo.png">
       <h1 class="font-bold text-6xl text-left">PBJI <p class="text-2xl">Pengurus Besar Ju-Jitsu Indoensia

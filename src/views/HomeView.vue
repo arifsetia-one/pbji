@@ -5,9 +5,9 @@
       src="https://images.unsplash.com/photo-1501901609772-df0848060b33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
       class="w-full h-screen object-cover"> -->
     <img src="../assets/bg2.png" class="w-full h-full absolute inset-0 object-cover opacity-90 -z-20">
-    <div class=" container mt-28 mx-auto flex italic">
+    <div class=" container mt-72 mx-auto flex italic">
       <img class="w-24 h-24 mr-6" src="../assets/logo.png">
-      <h1 class="font-bold text-6xl text-left">PBJI <p class="text-2xl">Pengurus Besar Ju-Jitsu Indoensia
+      <h1 class="font-bold text-6xl text-white text-left">PBJI <p class="text-2xl">Pengurus Besar Ju-Jitsu Indoensia
         </p>
       </h1>
     </div>
@@ -15,9 +15,9 @@
   <!-- Card Top -->
   <!-- End of Card Top -->
   <!-- Card -->
-  <section class="container mx-auto mt-10 mb-8">
+  <section class="container md:pt-56 pt-24 mx-auto mb-8">
     <div class="text-start flex flex-col">
-      <h1 class="font-bold md:text-3xl text-2xl text-[#3f3f3f]">Rekomendasi Event</h1>
+      <h1 class="font-bold md:text-3xl text-2xl">Rekomendasi Event</h1>
     </div>
     <div class="grid grid-cols-1 gap-2 justify-center pb-[5%] pt-0 md:grid-cols-3 md:gap-10">
       <div

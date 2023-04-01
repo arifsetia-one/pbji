@@ -3,7 +3,7 @@
     <nav class="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-md">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a to="/" href="#" class="flex items-center">
-                <img src="https://pbjisurabaya.or.id/images/logo/pbji.png" class="h-0 mr-3 sm:h-9" alt="PBJI Logo" />
+                <img src="../assets/logo.png" class="h-0 mr-3 sm:h-9" alt="PBJI Logo" />
                 <span class="self-center text-2xl sm:text-3xl font-bold text-white whitespace-nowrap ">PBJI-DIY</span>
             </a>
             <div class="flex items-center md:order-2 text-white">

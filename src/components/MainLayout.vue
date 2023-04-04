@@ -1,6 +1,6 @@
 <template>
     <!-- Navbar -->
-    <nav class="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-md">
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-md">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a to="/" href="#" class="flex items-center">
                 <img src="../assets/logo.png" class="h-0 mr-3 sm:h-9" alt="PBJI Logo" />

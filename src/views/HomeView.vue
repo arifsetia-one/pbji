@@ -4,19 +4,20 @@
     <!-- <img
       src="https://images.unsplash.com/photo-1501901609772-df0848060b33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
       class="w-full h-screen object-cover"> -->
-    <img src="../assets/bg3.png" class="w-full h-full absolute inset-0 object-cover -z-20">
-    <div class=" container mt-20 mx-auto flex italic">
+    <img src="../assets/bg3.png" class="w-full h-full absolute inset-0 object-cover -z-20 brightness-75">
+    <div class=" container mt-20 mx-auto flex italic sm:flex">
       <img class="w-24 h-24 mr-6" src="../assets/logo.png">
       <h1 class="font-bold text-6xl text-white text-left">PBJI <p class="text-2xl">Pengurus Besar Ju-Jitsu Indoensia
         </p>
       </h1>
     </div>
     <div class="container mx-auto mt-20 felx items-center grid grid-cols-2">
-      <h1 class="text-white text-6xl text-left">Lorem ipsum dolor sit <br />amet consectetur
+      <h1 class="text-white text-6xl text-left">Lorem ipsum <br />amet consectetur
         <br />adipisicing
         elit.
       </h1>
-      <img src="../assets/cardphoto.png" class="opacity-90 place-self-center drop-shadow-2xl">
+      <img src="../assets/cardphoto.png"
+        class="place-self-center drop-shadow-2xl md:mt-10 lg:mt-10 md:ml-32 scale-110 hover:scale-125 transition-all duration-300">
     </div>
   </div>
   <!-- Card Top -->

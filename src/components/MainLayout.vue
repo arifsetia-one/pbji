@@ -16,8 +16,8 @@
             <div class="items-center justify-center flex hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent">
-                    <li class="font-semibold text-white hover:text-[#eb1728]" v-for="menu in menuNavbar" :key="menu.title"
-                        @click="onRouteClick(menu)">{{ menu.title }}</li>
+                    <li class="font-semibold px-8 text-white hover:text-[#eb1728]" v-for="menu in menuNavbar"
+                        :key="menu.title" @click="onRouteClick(menu)">{{ menu.title }}</li>
                 </ul>
             </div>
         </div>

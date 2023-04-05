@@ -74,4 +74,13 @@
     </div>
   </section>
   <!-- End of Card -->
+  <!-- Company Logos -->
+  <div class="container mx-auto flex grid grid-cols-5 mb-44 mt-16 place-items-center">
+    <img src="../assets/logo/1.png">
+    <img src="../assets/logo/2.png">
+    <img src="../assets/logo/3.png">
+    <img src="../assets/logo/4.png">
+    <img src="../assets/logo/5.png">
+  </div>
+  <!-- End of Company Logos -->
 </template>

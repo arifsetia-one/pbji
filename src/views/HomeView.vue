@@ -12,18 +12,24 @@
       </h1>
     </div>
     <div class="container mx-auto mt-20 felx items-center grid grid-cols-2">
-      <h1 class="text-white text-6xl text-left">Lorem ipsum <br />amet consectetur
+      <h1 class="text-white sm:text-5xl md:text-5xl lg:text-6xl text-4xl font-semibold text-left ml-14">Lorem ipsum
+        <br />amet
+        consectetur
         <br />adipisicing
         elit.
       </h1>
       <img src="../assets/cardphoto.png"
-        class="place-self-center drop-shadow-2xl md:mt-10 lg:mt-10 md:ml-32 scale-110 hover:scale-125 transition-all duration-300">
+        class="place-self-center drop-shadow-2xl md:mt-10 lg:mt-10 md:ml-32 lg:scale-110 sm:scale-75 sm:hover:scale-90 lg:hover:scale-125 transition-all duration-300">
     </div>
   </div>
   <!-- Card Top -->
+  <div class="pt-52 container mx-auto flex object-center items-center gap-10">
+    <img src="../assets/Card1.png" class="w-full">
+    <img src="../assets/card2.png">
+  </div>
   <!-- End of Card Top -->
   <!-- Card -->
-  <section class="container md:pt-56 mx-auto mb-8">
+  <section class="container md:pt-14 mx-auto mb-8">
     <div class="text-start flex flex-col">
       <h1 class="font-bold md:text-3xl text-2xl">Rekomendasi Event</h1>
     </div>

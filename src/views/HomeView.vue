@@ -1,5 +1,5 @@
 <template>
-  <!-- bg-[url('../assets/bg2.png')] -->
+  <!-- Jmbotron -->
   <div class="home md:mb-28">
     <img src="../assets/bg3.png" class="w-full h-full absolute inset-0 object-cover -z-20 brightness-75">
     <div class=" container mt-20 mx-auto flex italic sm:flex">
@@ -19,14 +19,17 @@
         class="place-self-center drop-shadow-2xl md:mt-10 lg:mt-10 md:ml-32 lg:scale-110 sm:scale-75 sm:hover:scale-90 lg:hover:scale-125 transition-all duration-300">
     </div>
   </div>
+  <!-- End of Jumbotron -->
+
   <!-- Card Top -->
-  <div class="pt-52 container mx-auto flex object-center items-center gap-10">
+  <div class="container mx-auto flex object-center items-center gap-10">
     <img src="../assets/Card1.png" class="w-full">
-    <img src="../assets/card2.png">
+    <!-- <img src="../assets/card2.png"> -->
   </div>
   <!-- End of Card Top -->
+
   <!-- Card -->
-  <section class="container md:pt-14 mx-auto mb-8">
+  <div class="container md:pt-14 mx-auto mb-8">
     <div class="text-start flex flex-col">
       <h1 class="font-bold md:text-3xl text-2xl">Rekomendasi Event</h1>
     </div>
@@ -69,15 +72,16 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
   <!-- End of Card -->
+
   <!-- Company Logos -->
-  <div class="container mx-auto flex grid grid-cols-5 mb-44 mt-16 place-items-center">
-    <img src="../assets/logo/1.png">
-    <img src="../assets/logo/2.png">
-    <img src="../assets/logo/3.png">
-    <img src="../assets/logo/4.png">
-    <img src="../assets/logo/5.png">
+  <div class="container mx-auto flex grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 mb-44 mt-16 place-items-center">
+    <img src="../assets/logo/logo1.png">
+    <img src="../assets/logo/logo2.png">
+    <img src="../assets/logo/logo3.png">
+    <img src="../assets/logo/logo4.png">
+    <img src="../assets/logo/logo5.png">
   </div>
   <!-- End of Company Logos -->
 </template>

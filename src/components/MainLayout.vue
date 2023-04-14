@@ -1,12 +1,12 @@
 <template>
     <!-- Navbar -->
-    <nav class="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-md">
+    <nav class="bg-white fill-current border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-md text-black">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a to="/" href="#" class="flex items-center">
                 <img src="../assets/logo.png" class="h-0 mr-3 sm:h-9" alt="PBJI Logo" />
-                <span class="self-center text-2xl sm:text-3xl font-bold text-white whitespace-nowrap ">PBJI-DIY</span>
+                <span class="self-center text-2xl sm:text-3xl font-bold whitespace-nowrap text-black">PBJI-DIY</span>
             </a>
-            <div class="flex items-center md:order-2 text-white">
+            <div class="flex items-center md:order-2">
                 <button
                     class="bg-[#eb1728] py-1 px-4 md:py-2 md:px-6 rounded-[8px] text-sm hover:scale-105 transition-all duration-300">
                     <a class="text-white text-1xl" target="_blank"
@@ -16,8 +16,8 @@
             <div class="items-center justify-center flex hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent">
-                    <li class="font-semibold px-8 text-white hover:text-[#eb1728]" v-for="menu in menuNavbar"
-                        :key="menu.title" @click="onRouteClick(menu)">{{ menu.title }}</li>
+                    <li class="font-semibold px-8 hover:text-[#eb1728]" v-for="menu in menuNavbar" :key="menu.title"
+                        @click="onRouteClick(menu)">{{ menu.title }}</li>
                 </ul>
             </div>
         </div>
